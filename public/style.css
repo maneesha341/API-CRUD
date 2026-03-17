@@ -1,0 +1,192 @@
+/* Page background */
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(120deg,#667eea,#764ba2);
+    margin:0;
+    min-height:100vh;
+}
+
+/* Heading */
+h1{
+    text-align:center;
+    color:white;
+    padding:25px;
+    letter-spacing:1px;
+}
+
+/* Card style for posts */
+.post{
+    background:white;
+    width:420px;
+    margin:25px auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.post:hover{
+    transform:translateY(-6px);
+}
+
+/* Username */
+.user{
+    color:#667eea;
+    font-weight:bold;
+}
+
+/* Post content */
+.content{
+    margin:10px 0;
+    color:#444;
+}
+
+/* Links */
+a{
+    text-decoration:none;
+    color:#667eea;
+    font-weight:600;
+    margin-right:10px;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* Delete button */
+button{
+    background:#ff5c5c;
+    border:none;
+    color:white;
+    padding:8px 15px;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#e04343;
+}
+
+/* Create button */
+.create{
+    display:block;
+    width:200px;
+    margin:30px auto;
+    text-align:center;
+    padding:12px;
+    background:white;
+    color:#667eea;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+/* Form container */
+.form-container{
+    background:rgba(255,255,255,0.95);
+    width:420px;
+    margin:40px auto;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Inputs */
+input, textarea{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid #ccc;
+    margin-top:10px;
+    font-size:14px;
+}
+
+/* textarea */
+textarea{
+    height:120px;
+    resize:none;
+}
+
+/* Submit button */
+.form-container button{
+    width:100%;
+    margin-top:15px;
+    background:#667eea;
+    padding:12px;
+    font-size:16px;
+}
+
+.form-container button:hover{
+    background:#5a67d8;
+}
+
+/* Back link */
+.back{
+    display:block;
+    margin-top:15px;
+    text-align:center;
+    color:#667eea;
+}
+/* Post card */
+.post{
+    background:white;
+    width:450px;
+    margin:25px auto;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* Post header */
+.post-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    margin-bottom:10px;
+}
+
+/* Avatar circle */
+.avatar{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#667eea;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
+
+/* Username */
+.user-info h3{
+    margin:0;
+    color:#333;
+}
+
+/* Content */
+.content{
+    margin:10px 0;
+    color:#444;
+}
+
+/* Action buttons */
+.actions{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.actions a{
+    text-decoration:none;
+    color:#667eea;
+    font-weight:600;
+}
+
+.actions button{
+    background:#ff5c5c;
+    border:none;
+    color:white;
+    padding:6px 12px;
+    border-radius:6px;
+    cursor:pointer;
+}
